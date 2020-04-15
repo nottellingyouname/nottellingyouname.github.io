@@ -91,6 +91,11 @@
 										<span class="date">April 22, 2017</span>
 										<h2><a href="elements.html">Blog</a></h2>
 									</header>
+									<p>Date/Time: <span id="datetime"></span></p>
+									<script>
+										var dt = new Date();
+										document.getElementById("datetime").innerHTML = dt.toLocaleDateString();
+									</script>
 									<a href="elements.html" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
 									<p style="font-family: merriweather, Helvetica Neue, Helvetica, ; text-align: center;">My thoughts about the world, about life and about everything else.</p>
 									<ul class="actions special">
