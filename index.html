@@ -57,6 +57,11 @@
 						<!-- Featured Post -->
 							<article class="post featured">
 								<header class="major">
+									<p>Date/Time: <span id="datetime"></span></p>
+									<script>
+										var dt = new Date();
+										document.getElementById("datetime").innerHTML = dt.toLocaleDateString();
+									</script>
 									<span class="date", id=story>April 25, 2017</span>
 									<h2><a>What am I<br />
 									Trying to Accomplish</a></h2>
