@@ -2689,7 +2689,7 @@ input, select, textarea {
 		padding-left: 0;
 	}
 
-	ul.actions {
+	ul.actions:hover {
 		color: red
 	}
 
