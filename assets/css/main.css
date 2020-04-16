@@ -3930,7 +3930,7 @@ input, select, textarea {
 			}
 
 			#main > .posts > header {
-				padding: 20px;
+				box-align: center;
 			}
 
 		@media screen and (max-width: 736px) {
