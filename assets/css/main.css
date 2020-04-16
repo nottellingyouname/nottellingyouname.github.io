@@ -3363,8 +3363,8 @@ input, select, textarea {
 			#intro input[type="button"]:hover,
 			#intro button:hover,
 			#intro .button:hover {
-				box-shadow: inset 0 0 0 2px #8B61FF;
-				color: #8B61FF !important;
+				box-shadow: inset 0 0 0 2px #FF008D;
+				color: #FF008D !important;
 			}
 
 			#intro input[type="submit"].primary,
