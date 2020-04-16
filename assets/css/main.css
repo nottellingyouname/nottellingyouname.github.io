@@ -2890,7 +2890,7 @@ input, select, textarea {
 	}
 
 	ul.icons li a.icon:hover:before {
-		color: #AAFFE4;
+		color: #FF0069;
 	}
 
 	ul.icons.alt li .icon:before {
@@ -2898,7 +2898,7 @@ input, select, textarea {
 	}
 
 	ul.icons.alt li a.icon:hover:before {
-		box-shadow: inset 0 0 0 2px #AAFFE4;
+		box-shadow: inset 0 0 0 2px #FF0069;
 	}
 
 /* Section/Article */
@@ -3632,7 +3632,7 @@ input, select, textarea {
 		}
 
 		#nav ul.icons li a.icon:hover:before {
-			color: #AAFFE4;
+			color: #FF0069;
 		}
 
 		#nav ul.icons.alt li .icon:before {
@@ -3640,7 +3640,7 @@ input, select, textarea {
 		}
 
 		#nav ul.icons.alt li a.icon:hover:before {
-			box-shadow: inset 0 0 0 2px #AAFFE4;
+			box-shadow: inset 0 0 0 2px #FF0069;
 		}
 
 		#nav input, #nav select, #nav textarea {
@@ -4119,7 +4119,7 @@ input, select, textarea {
 		}
 
 		#footer ul.icons li a.icon:hover:before {
-			color: #AAFFE4;
+			color: #FF0069;
 		}
 
 		#footer ul.icons.alt li .icon:before {
@@ -4127,7 +4127,7 @@ input, select, textarea {
 		}
 
 		#footer ul.icons.alt li a.icon:hover:before {
-			box-shadow: inset 0 0 0 2px #AAFFE4;
+			box-shadow: inset 0 0 0 2px #FF0069;
 		}
 
 		#footer header.major .date:before, #footer header.major .date:after {
