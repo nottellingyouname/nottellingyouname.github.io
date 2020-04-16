@@ -3113,6 +3113,7 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		margin: 0 0 2rem 2px;
+		text-align: center;
 		padding: 0;
 	}
 
