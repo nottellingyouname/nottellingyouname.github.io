@@ -6,11 +6,12 @@
 -->
 <html>
 	<head>
-		<title>Music Streaming</title>
+		<title>Lofi-Ash</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="shortcut icon" type="image/png" href="images/favicon.png" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css"></noscript>
 	</head>
 	<body class="is-preload">
 
@@ -21,31 +22,31 @@
 					<div id="intro">
 						<h1>Welcome to<br />
 						Lofi-Ash</h1>
-						<p><a href="https://www.youtube.com/channel/UCY8o6-oDweQXQylE1IA_npA">Some people complain because god put thorn on roses <br />
+						<p><a href="https://www.youtube.com/channel/UCY8o6-oDweQXQylE1IA_npA" target="_blank">Some people complain because god put thorn on roses <br />
 						While others praise Him for putting roses among Thorns.</a></p>
 						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+							<li><a href="#story" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
 						</ul>
 					</div>
 
 				<!-- Header -->
 					<header id="header">
-						<a href="index.html" class="logo">About Me</a>
+						<a href="#aboutme", class="logo">About Me</a>
 					</header>
 
 				<!-- Nav -->
 
 					<nav id="nav">
 						<ul class="links">
-							<li><a href="index.html">General</a></li>
+							<li class="active"><a href="index.html">General</a></li>
 							<li><a href="generic.html">Music Review</a></li>
 							<li><a href="elements.html">Blog</a></li>
-							<li class="active"><a href="musicstream.html">Music Stream</a></li>
+							<li><a href="musicstream.html">Music Stream</a></li>
 							<li><a href="prod.html">Music Production</a></li>
 						</ul>
 						<ul class="icons"> follow me on:
 							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Youtube</span></a></li>
+							<li><a href="#" class="icon brands fa-youtube"><span class="label">Youtube</span></a></li>
 							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
 							<li><a href="#" class="icon brands fa-github"><span class="label">Email</span></a></li>
 						</ul>
@@ -56,11 +57,16 @@
 
 						<!-- Featured Post -->
 							<article class="post featured">
-								<header class="major">
-									<span class="date">April 25, 2017</span>
-									<h2><a href="#">What am I<br />
+								<header class="major", id="story">
+									<p><span class="date", id="datetime"></span></p>
+									<script>
+										var dt = new Date();
+										document.getElementById("datetime").innerHTML = dt.toLocaleDateString();
+									</script>
+									<span class="date"></span>
+									<h2><a>What am I<br />
 									Trying to Accomplish</a></h2>
-									<p>If you dont know me then fuck you</p>
+									<p>Lo-fi hip hop is a music style which uses halcyon vocals and mundane imagery to evoke a sense of tranquility and nostalgia. Lo-fi provokes feelings depending on the individual but most of the time the genre is just a way to encourage people to stop overthinking and pay attention to the world around them. My ambition is to help individuals seek what nostalgic music is really like and enjoy it whenever they can</p>
 								</header>
 								<a href="#" class="image main"><img src="images/pic01.jpg" alt="" /></a>
 								<ul class="actions special">
@@ -68,64 +74,23 @@
 								</ul>
 							</article>
 
-						<!-- Posts -->
-							<section class="posts">
-								<article>
-									<header>
-										<span class="date">April 24, 2017</span>
-										<h2><a href="#">Music Review</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Insaada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 22, 2017</span>
-										<h2><a href="#">Blog</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 18, 2017</span>
-										<h2><a href="#">Music Stream</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 14, 2017</span>
-										<h2><a href="#">Music Production</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
+								<div class="pagination">
+									<!--<a href="#" class="previous">Prev</a>-->
+									<a class="page active">1</a>
+									<a href="generic.html" class="page">2</a>
+									<a href="elements.html" class="page">3</a>
+									<a href="musicstream.html" class="page">4</a>
+									<a href="prod.html" class="page">5</a>
+									<a href="generic.html" class="next">Next</a>
+								</div>
 							</section>
 
 						<!-- Footer -->
 							<footer>
-								<div class="pagination">
-									<!--<a href="#" class="previous">Prev</a>-->
-									<a href="#" class="page active">1</a>
-									<a href="#" class="page">2</a>
-									<a href="#" class="page">3</a>
-									<span class="extra">&hellip;</span>
-									<a href="#" class="next">Next</a>
-								</div>
+								<header>
+									<h2 id="aboutme">About Me</h2>
+									<p1 style="text-align: center;">I am asdshara</p1>
+								</header>
 							</footer>
 
 					</div>
@@ -181,7 +146,7 @@
 
 				<!-- Copyright -->
 					<div id="copyright">
-						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+						<ul><li>Created by a semiprofessional boy</li></ul>
 					</div>
 
 			</div>
