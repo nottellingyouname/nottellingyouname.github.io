@@ -3113,7 +3113,7 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		margin: 0 0 2rem 2px;
-		padding: 1000;
+		padding: 100px;
 	}
 
 		.pagination a, .pagination span {
