@@ -3640,7 +3640,7 @@ input, select, textarea {
 		}
 
 		#nav ul.icons.alt li a.icon:hover:before {
-			box-shadow: inset 0 0 0 2px #BF0043;
+			box-shadow: inset 0 0 0 2px #AAFFE4;
 		}
 
 		#nav input, #nav select, #nav textarea {
@@ -4119,7 +4119,7 @@ input, select, textarea {
 		}
 
 		#footer ul.icons li a.icon:hover:before {
-			color: #BF0043;
+			color: #AAFFE4;
 		}
 
 		#footer ul.icons.alt li .icon:before {
@@ -4127,7 +4127,7 @@ input, select, textarea {
 		}
 
 		#footer ul.icons.alt li a.icon:hover:before {
-			box-shadow: inset 0 0 0 2px #BF0043;
+			box-shadow: inset 0 0 0 2px #AAFFE4;
 		}
 
 		#footer header.major .date:before, #footer header.major .date:after {
