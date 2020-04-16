@@ -2526,7 +2526,7 @@ input, select, textarea {
 
 	input[type="checkbox"]:focus + label:before,
 	input[type="radio"]:focus + label:before {
-		border-color: #BF0043;
+		border-color: #FF0059;
 	}
 
 	::-webkit-input-placeholder {
