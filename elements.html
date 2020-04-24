@@ -46,8 +46,9 @@
 							<li><a href="#" class="icon brands fa-github"><span class="label">Email</span></a></li>
 						</ul>
 					</nav>
-					<div id="main">
 
+
+					<div id="main">
 						<!-- Featured Post -->
 							<article class="post featured">
 								<header class="major", id="story">
@@ -57,23 +58,43 @@
 										document.getElementById("datetime").innerHTML = dt.toLocaleDateString();
 									</script>
 									<span class="date"></span>
-									<h2><a>What am I<br />
-									Trying to Accomplish</a></h2>
-									<p>Lo-fi hip hop is a music style which uses halcyon vocals and mundane imagery to evoke a sense of tranquility and nostalgia. Lo-fi provokes feelings depending on the individual but most of the time the genre is just a way to encourage people to stop overthinking and pay attention to the world around them. My ambition is to help individuals seek what nostalgic music is really like and enjoy it whenever they can</p>
+									<h2><a>Sake<br />
+									fuck</a></h2>
+									<p>Need some mental help</p>
 								</header>
 								<a href="#" class="image main"><img src="images/pic01.jpg" alt="" /></a>
 								<ul class="actions special">
 									<li><a href="#" class="button large">Full Story</a></li>
 								</ul>
 							</article>
+							<button class="open-button" onclick="openForm()">Open Form</button>
+
+							<div class="form-popup" id="myForm">
+							<form action="/action_page.php" class="form-container">
+								<h1>Login</h1>
+
+								<label for="email"><b>Email</b></label>
+								<input type="text" placeholder="Enter Email" name="email" required>
+
+								<label for="psw"><b>Password</b></label>
+								<input type="password" placeholder="Enter Password" name="psw" required>
+
+								<button type="submit" class="btn">Login</button>
+								<button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+							</form>
+							</div>
+
 					</div>
 
+					
 					
 					<div id="main">get</div>
 					<p1>Ciao</p1>
 		
 
-            <!--Custom Javascript file--> 
+			<!----------------------------Custom Javascript file---------------------------> 
+			<script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-app.js"></script>
+			<script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-analytics.js"></script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
