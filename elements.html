@@ -7,6 +7,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="shortcut icon" type="image/png" href="images/favicon.png" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-app.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-analytics.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-auth.js"></script>
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css"></noscript>
 	</head>
 	<body class="is-preload">
@@ -47,9 +50,8 @@
 						</ul>
 					</nav>
 
-
+			<!------------------------------- Featured Post ----------------------------------->	
 					<div id="main">
-						<!-- Featured Post -->
 							<article class="post featured">
 								<header class="major", id="story">
 									<p><span class="date", id="datetime"></span></p>
@@ -67,8 +69,10 @@
 									<li><a href="#" class="button large">Full Story</a></li>
 								</ul>
 							</article>
-							<button class="open-button" onclick="openForm()">Open Form</button>
-
+					</div>
+							
+	<!------------------------------------------Login----------------------------------------->
+					<button class="open-button" onclick="openForm()">Open Form</button>
 					<div class="form-popup" id="myForm">
 					<form action="/action_page.php" class="form-container">
 						<h1>Login</h1>
@@ -84,45 +88,13 @@
 					</form>
 					</div>
 
-					</div>
-
 					
 					
 					<div id="main">get</div>
 					<p1>Ciao</p1>
 
-			<script>
-				 var firebaseConfig = {
-     			    apiKey: "AIzaSyA564kXeIeRb3yVP4EmTRFS70wqG95_UVY",
-					authDomain: "lofi-ash.firebaseapp.com",
-					databaseURL: "https://lofi-ash.firebaseio.com",
-					projectId: "lofi-ash",
-					storageBucket: "lofi-ash.appspot.com",
-					messagingSenderId: "503791388627",
-					appId: "1:503791388627:web:d64e83f754f9d60c5a5126",
-					measurementId: "G-RB66R8DG56"
-				};
-  // 
-			</script>
-		
-
 			<!----------------------------Custom Javascript file---------------------------> 
-			<script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-app.js"></script>
-			<script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-analytics.js"></script>
-			<script>
-				var firebaseConfig = {
-				  apiKey: "AIzaSyA564kXeIeRb3yVP4EmTRFS70wqG95_UVY",
-				  authDomain: "lofi-ash.firebaseapp.com",
-				  databaseURL: "https://lofi-ash.firebaseio.com",
-				  projectId: "lofi-ash",
-				  storageBucket: "lofi-ash.appspot.com",
-				  messagingSenderId: "503791388627",
-				  appId: "1:503791388627:web:d64e83f754f9d60c5a5126",
-				  measurementId: "G-RB66R8DG56"
-				};  
-				firebase.initializeApp(firebaseConfig);
-				firebase.analytics();
-			</script>
+			<script src="assets/js/Login.js"></script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
