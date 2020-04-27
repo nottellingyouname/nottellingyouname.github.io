@@ -74,14 +74,14 @@
             <!------------------------------------------------Login----------------------------------------->
 							<button class="open-button" onclick="openForm()">Sign Up</button>
 							<div class="form-popup" id="myForm">
-								<form action="/action_page.firebase" class="form-container">
+								<form action="https://www.gstatic.com/firebasejs/7.14.1/firebase-auth.js" class="form-container">
 									<h2 style="font-family: Arial, Helvetica, sans-serif;">Sign Up</h2>
 
 									<label for="email"><b>Email</b></label>
-									<input type="text" placeholder="Enter Email" id="email" required>
+									<input type="text" placeholder="Enter Email" id="email" name="email" required>
 
 									<label for="password"><b>Password</b></label>
-									<input type="password" placeholder="Enter Password" id="password" required>
+									<input type="password" placeholder="Enter Password" id="password" name="password" required>
 
 									<button type="submit" class="btn">Sign Up</button>
 									<button type="button" class="btn cancel" onclick="closeForm()">Close</button>
