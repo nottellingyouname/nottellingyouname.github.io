@@ -6,8 +6,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="shortcut icon" type="image/png" href="images/favicon.png" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<script src="assets/js/Login.js"></script>	
+		<link rel="stylesheet" href="assets/css/main.css" />	
 		<link rel="Login" href="assets/js/Login.js" />
 		<script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-app.js"></script>
 		<script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-analytics.js"></script>
@@ -100,6 +99,22 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script src="/__/firebase/init.js"></script>
+			<script src="assets/js/Login.js"></script>
+			<script>
+				var firebaseConfig = {
+				  apiKey: "AIzaSyA564kXeIeRb3yVP4EmTRFS70wqG95_UVY",
+				  authDomain: "lofi-ash.firebaseapp.com",
+				  databaseURL: "https://lofi-ash.firebaseio.com",
+				  projectId: "lofi-ash",
+				  storageBucket: "lofi-ash.appspot.com",
+				  messagingSenderId: "503791388627",
+				  appId: "1:503791388627:web:d64e83f754f9d60c5a5126",
+				  measurementId: "G-RB66R8DG56"
+				};
+				// Initialize Firebase
+				firebase.initializeApp(firebaseConfig);
+				firebase.analytics();
+			</script>
 	</body>
 
 </html>
