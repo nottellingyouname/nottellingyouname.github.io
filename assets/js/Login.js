@@ -17,8 +17,6 @@ const analytics = firebase.analytics();
 
 db.settings({timestampsInSnapshots: true });
 
-const auth = firebase.auth();
-
 const signupForm = document.querySelector("#Signup-form");
 signupForm.addEventListener("submit", (e)=>  {
   e.preventDefault();
