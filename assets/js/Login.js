@@ -19,13 +19,14 @@ db.settings({timestampsInSnapshots: true });
 
 const auth = firebase.auth();
 
-function SignUp(){
-   var email = document.getElementById("email");
-   var password = document.getElementById("password");
+const signupForm = document.querySelector("#Signup-form");
+signupForm.addEventListener("submit", (e)=>  {
+  e.preventDefault();
 
-   const promise = auth.CreateUserWithEmailAndPassword(email.value, password.value);
-   promise.catch(e => alert(e.message));
+  const email = signupForm["signup-email"].value;
+  const password = signupForm["signup-password"].value;
 
-   alert("Signed Up");
-
-}
+  auth.createUserWithAndPassword(email, password).then(cred => {
+    console.log(cred.user);
+  })
+})
