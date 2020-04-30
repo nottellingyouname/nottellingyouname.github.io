@@ -19,8 +19,8 @@ const signupForm = document.querySelector("#Signup-form");
 signupForm.addEventListener("submit", (e)=>  {
   e.preventDefault();
 
-  const email = signupForm["signup-email"].value;
-  const password = signupForm["signup-password"].value;
+  const email = signupForm["email"].value;
+  const password = signupForm["password"].value;
 
   auth.createUserWithEmailAndPassword(email, password).then(cred => {
     console.log(cred.user);
