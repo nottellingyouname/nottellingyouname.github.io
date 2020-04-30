@@ -1,4 +1,4 @@
-var firebaseConfig = {
+const firebaseConfig = {
   apiKey: "AIzaSyA564kXeIeRb3yVP4EmTRFS70wqG95_UVY",
   authDomain: "lofi-ash.firebaseapp.com",
   databaseURL: "https://lofi-ash.firebaseio.com",
@@ -27,4 +27,5 @@ signupForm.addEventListener("submit", (e)=>  {
   auth.createUserWithEmailAndPassword(email, password).then(cred => {
     console.log(cred.user);
   })
+
 })
