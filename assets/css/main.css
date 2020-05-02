@@ -4719,11 +4719,8 @@ input, select, textarea {
 	max-width: 300px;
 	padding: 10px;
 	background-color: white;
-	opacity: 0.8;
-	padding: 0.5rem 0.5rem 0.5rem 0.5rem ;
-	border-top: solid 2px #eeeeee;
-	margin: 0;
-	fill: #4CAF50;
+	border: solid 2px #955568;
+
 }
   
   /* Full-width input fields */
