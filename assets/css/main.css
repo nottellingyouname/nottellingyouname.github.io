@@ -4709,7 +4709,7 @@ input, select, textarea {
 	display: none;
 	position: fixed;
 	bottom: 0;
-	right: 15px;
+	right: 15px;	
 	z-index: 9;
  }
   
