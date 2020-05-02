@@ -4746,6 +4746,10 @@ input, select, textarea {
 	width: 100%;
 	margin-bottom:10px;
 	opacity: 0.8;
+	padding: 0.5rem 0.5rem 0.5rem 0.5rem ;
+	border-top: solid 2px #eeeeee;
+	margin: 0;
+	fill: #4CAF50;
 }
   
   /* Add a red background color to the cancel button */
@@ -4756,12 +4760,4 @@ input, select, textarea {
   /* Add some hover effects to buttons */
   .form-container .btn:hover, .open-button:hover {
 	opacity: 1;
-}
-
-
-#main > .form-container {
-	padding: 0.5rem 0.5rem 0.5rem 0.5rem ;
-	border-top: solid 2px #eeeeee;
-	margin: 0;
-	fill: #4CAF50;
 }
