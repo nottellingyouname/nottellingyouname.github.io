@@ -4691,7 +4691,7 @@ input, select, textarea {
 /* Login */
 
 .open-button {
-	background-color: #555;
+	background-color: #3F3F4D;
 	color: white;
 	border: none;
 	cursor: pointer;
@@ -4738,7 +4738,7 @@ input, select, textarea {
   
   /* Set a style for the submit/login button */
   .form-container .btn {
-	background-color: #4CAF50;
+	background-color: #A2E8CA;
 	color: white;
 	border: none;
 	cursor: pointer;
@@ -4748,7 +4748,7 @@ input, select, textarea {
   
   /* Add a red background color to the cancel button */
   .form-container .cancel {
-	background-color: red;
+	background-color: #BF0043;
 }
   
   /* Add some hover effects to buttons */
