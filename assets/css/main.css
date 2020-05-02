@@ -4719,6 +4719,11 @@ input, select, textarea {
 	max-width: 300px;
 	padding: 10px;
 	background-color: white;
+	opacity: 0.8;
+	padding: 0.5rem 0.5rem 0.5rem 0.5rem ;
+	border-top: solid 2px #eeeeee;
+	margin: 0;
+	fill: #4CAF50;
 }
   
   /* Full-width input fields */
@@ -4745,11 +4750,6 @@ input, select, textarea {
 	cursor: pointer;
 	width: 100%;
 	margin-bottom:10px;
-	opacity: 0.8;
-	padding: 0.5rem 0.5rem 0.5rem 0.5rem ;
-	border-top: solid 2px #eeeeee;
-	margin: 0;
-	fill: #4CAF50;
 }
   
   /* Add a red background color to the cancel button */
