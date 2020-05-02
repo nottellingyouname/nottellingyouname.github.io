@@ -4757,3 +4757,11 @@ input, select, textarea {
   .form-container .btn:hover, .open-button:hover {
 	opacity: 1;
 }
+
+
+#main > * > .form-container {
+	padding: 0.5rem 0.5rem 0.5rem 0.5rem ;
+	border-top: solid 2px #eeeeee;
+	margin: 0;
+	fill: #4CAF50;
+}
