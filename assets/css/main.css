@@ -4759,7 +4759,7 @@ input, select, textarea {
 }
 
 
-#main > * > .form-container {
+#main > .form-container {
 	padding: 0.5rem 0.5rem 0.5rem 0.5rem ;
 	border-top: solid 2px #eeeeee;
 	margin: 0;
