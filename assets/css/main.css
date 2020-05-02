@@ -4698,8 +4698,8 @@ input, select, textarea {
 	cursor: pointer;
 	opacity: 0.8;
 	position: fixed;
-	bottom: 23px;
-	right: 28px;
+	top: 19px;
+	right: 25px;
 	width: 155px;
 	text-align: center;
 }
@@ -4718,7 +4718,7 @@ input, select, textarea {
 	max-width: 300px;
 	padding: 10px;
 	background-color: white;
-	border: solid 2px #955568;
+	border: solid 4px #BF0043;
 
 }
   
