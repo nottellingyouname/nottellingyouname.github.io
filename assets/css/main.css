@@ -4701,6 +4701,7 @@ input, select, textarea {
 	bottom: 23px;
 	right: 28px;
 	width: 200px;
+	text-align: center;
 }
   
   /* The popup form - hidden by default */
