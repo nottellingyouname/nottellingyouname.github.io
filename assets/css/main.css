@@ -4701,6 +4701,9 @@ input, select, textarea {
 	right: 25px;
 	width: 155px;
 	text-align: center;
+	background-color: transparent;
+	box-shadow: inset 0 0 0 2px #212931;
+	color: #212931 !important;
 }
   
   /* The popup form - hidden by default */
