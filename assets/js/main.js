@@ -266,10 +266,10 @@ function openForm() {
 }
 
 function openLoginForm() {
-    document.getElementById("myLoginForm").style.display = "block";
+    document.getElementById("Loginmyform").style.display = "block";
 }
   
   function closeLoginForm() {
-    document.getElementById("myLoginForm").style.display = "none";
+    document.getElementById("LoginmyForm").style.display = "none";
 }
 
