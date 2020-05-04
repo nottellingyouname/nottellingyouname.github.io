@@ -264,3 +264,12 @@ function openForm() {
   function closeForm() {
     document.getElementById("myForm").style.display = "none";
 }
+
+function openLoginForm() {
+    document.getElementById("myLoginForm").style.display = "block";
+}
+  
+  function closeLoginForm() {
+    document.getElementById("myLoginForm").style.display = "none";
+}
+
