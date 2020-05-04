@@ -4823,6 +4823,6 @@ input, select, textarea {
 }
   
   /* Add some hover effects to buttons */
-  .Loginform-container .btn:hover, .open-Loginbutton:hover {
+  .Loginform-container .btn:hover, .open-loginbutton:hover {
 	opacity: 1;
 }
