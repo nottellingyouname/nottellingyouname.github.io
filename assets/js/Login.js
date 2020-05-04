@@ -27,6 +27,6 @@ signupForm.addEventListener("submit", (e)=>  {
     const modal = document.querySelector("myForm");
     M.Modal.getInstance(modal).close();
     signupForm.reset();
-  })
+  });
 
-})
+});
