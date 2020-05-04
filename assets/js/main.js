@@ -265,11 +265,11 @@ function openForm() {
     document.getElementById("myForm").style.display = "none";
 }
 
-function openForm() {
+function openForm2() {
     document.getElementById("LoginmyForm").style.display = "block";
 }
   
-  function closeForm() {
+  function closeForm2() {
     document.getElementById("LoginmyForm").style.display = "none";
 }
 
