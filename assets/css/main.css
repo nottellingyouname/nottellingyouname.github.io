@@ -4757,3 +4757,19 @@ input, select, textarea {
   .form-container .btn:hover, .open-button:hover {
 	opacity: 1;
 }
+
+.open-loginbutton {
+	background-color: #3F3F4D;
+	color: white;
+	border: none;
+	cursor: pointer;
+	opacity: 0.7;
+	position: fixed;
+	top: 19px;
+	right: 205px;
+	width: 155px;
+	text-align: center;
+	box-shadow: inset 0 0 0 2px #212931;
+	color: #212931 !important;
+}
+  
