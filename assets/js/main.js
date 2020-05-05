@@ -266,7 +266,7 @@ function openForm() {
 }
 
 function openForm2() {
-    document.getElementById("LoginmyForm").style.display = "inherit";
+    document.getElementById("LoginmyForm").style.display = "inline";
 }
   
   function closeForm2() {
