@@ -23,7 +23,6 @@ signupForm.addEventListener("submit", (e)=>  {
   const password = signupForm["password"].value;
 
   auth.createUserWithEmailAndPassword(email, password).then(cred => {
-    console.log(cred.user);
     const modal = document.querySelector("#myForm");
     Materialize.Modal.getInstance(modal).close();
     signupForm.reset();
