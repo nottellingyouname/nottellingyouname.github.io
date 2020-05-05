@@ -46,7 +46,6 @@ logout.addEventListener("click", (e) => {
 const loginForm = document.querySelector("#login");
 loginForm.addEventListener("submit", (e) => {
   e.preventDefault();
-
   //get user info
   const email = loginForm["email2"].value;
   const password = loginForm["password2"].value;
