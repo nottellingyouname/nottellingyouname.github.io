@@ -266,7 +266,7 @@ function openForm() {
 }
 
 window.onclick = function(event) {
-	var modal = document.getElementById("myForm");
+	var modal = document.getElementById("open-button");
 	if (event.target == modal) {
 	  closeForm();
 	}
