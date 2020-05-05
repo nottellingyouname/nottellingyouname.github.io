@@ -266,7 +266,7 @@ function openForm() {
 }
 
 function openForm2() {
-    document.getElementById("LoginmyForm").style.display = "block";
+    document.getElementById("LoginmyForm").style.display = "inherit";
 }
   
   function closeForm2() {
