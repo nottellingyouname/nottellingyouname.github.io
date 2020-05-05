@@ -11,6 +11,7 @@ const firebaseConfig = {
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 
+//Sign Up
 const auth = firebase.auth();
 const db = firebase.firestore();
 const analytics = firebase.analytics();
@@ -30,6 +31,7 @@ signupForm.addEventListener("submit", (e)=>  {
 
 });
 
+
 //logout
 const logout = document.querySelector("#logout");
 logout.addEventListener("click", (e) => {
@@ -38,3 +40,21 @@ logout.addEventListener("click", (e) => {
     console.log("user signed out");
   });
 });
+
+
+//Login
+const loginForm = document.querySelector("#login");
+loginForm.addEventListener("submit", (e) => {
+  e.preventDefault();
+
+  //get user info
+  const email = loginForm["email2"].value;
+  const password = loginForm["password2"].value;
+  
+  auth.signInWithEmailAndPassword(email, password).then(cred => {
+    console.log(cred.user)
+    const modal = document.querySelector("#LoginmyForm");
+    M.Modal.getInstance(modal).close();
+    loginForm.reset();
+  })
+})
