@@ -265,13 +265,13 @@ function openForm() {
     document.getElementById("myForm").style.display = "none";
 }
 
-window.onclick = function(event) {
-	var modal = document.getElementById("myForm");
-	if (event.target == modal) {
-	  closeForm();
+
+window.addEventListener("mouseup", function(event){
+	var box = document.getElementById("myForm");
+	if(event.target != box){
+		closeForm2;
 	}
-}
-  
+});
 
 function openForm2() {
     document.getElementById("LoginmyForm").style.display = "block";
