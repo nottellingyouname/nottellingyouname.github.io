@@ -125,6 +125,48 @@
 								<a href="generic.html" class="next">Next</a>
 							</div>
 					</div>
+					<h2>Popup Form</h2>
+					<p>Click on the "Open Form" button to open the Popup form.</p>
+					<p>Then, you can click anywhere outside of the box to close it.</p>
+					<div class="open-btn">
+					  <button class="open-button" onclick="openForm()">
+					  <strong>Open Form</strong>
+					  </button>
+					</div>
+					<div id="loginPopup">
+					  <div class="form-popup" id="popupForm">
+						<form action="/action_page.php" class="form-container">
+						  <h2>Please Log in</h2>
+						  <label for="email">
+						  <strong>E-mail</strong>
+						  </label>
+						  <input type="text" id="email" placeholder="Your Email" name="email" required>
+						  <label for="psw">
+						  <strong>Password</strong>
+						  </label>
+						  <input type="password" id="psw" placeholder="Your Password" name="psw" required>
+						  <button type="submit" class="btn">Log in</button>
+						  <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+						</form>
+					  </div>
+					</div>
+					<script>
+					  function openForm() {
+						document.getElementById("loginPopup").style.display="block";
+					  }
+					  
+					  function closeForm() {
+						document.getElementById("loginPopup").style.display= "none";
+					  }
+					  // When the user clicks anywhere outside of the modal, close it
+					  window.onclick = function(event) {
+						var modal = document.getElementById('loginPopup');
+						if (event.target == modal) {
+						  closeForm();
+						}
+					  }
+					  
+					</script>
 			</div>		
 
 			<script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-app.js"></script>
