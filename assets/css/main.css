@@ -4829,7 +4829,7 @@ input, select, textarea {
 }
 
 /*----------------logout-------------*/
-.open-loginbutton {
+.logoutbutton {
 	background-color: #3F3F4D;
 	color: white;
 	border: none;
