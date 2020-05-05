@@ -265,8 +265,16 @@ function openForm() {
     document.getElementById("myForm").style.display = "none";
 }
 
+window.onclick = function(event) {
+	var modal = document.getElementById("myForm");
+	if (event.target == modal) {
+	  closeForm();
+	}
+}
+  
+
 function openForm2() {
-    document.getElementById("LoginmyForm").style.display = "inline";
+    document.getElementById("LoginmyForm").style.display = "block";
 }
   
   function closeForm2() {
