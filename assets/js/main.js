@@ -265,13 +265,12 @@ function openForm() {
     document.getElementById("myForm").style.display = "none";
 }
 
-window.addEventListener("click", function(event) {
-
-	var modal = document.getElementById("open-button");
+window.onclick = function(event) {
+	var modal = document.getElementById("myForm");
 	if (event.target == modal) {
 	  closeForm();
 	}
-});
+}
   
 
 function openForm2() {
