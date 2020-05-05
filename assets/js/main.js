@@ -269,8 +269,8 @@ function openForm() {
 window.addEventListener("mouseup", function(event){
 	var box = document.getElementById("myForm");
 	if(event.target != box){
-		function closeForm2(){
-			document.getElementById("LoginmyForm").style.display = "none";
+		function closeForm() {
+			document.getElementById("myForm").style.display = "none";
 		};
 	}
 });
