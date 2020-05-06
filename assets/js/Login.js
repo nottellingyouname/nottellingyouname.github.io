@@ -16,6 +16,14 @@ const auth = firebase.auth();
 const db = firebase.firestore();
 const analytics = firebase.analytics();
 
+auth.onAuthStateChanged(user => {
+  if (user) {
+    console.log("user logged in: ", user);
+  } else {
+    console.log("user logged out");
+  }
+});
+
 const signupForm = document.querySelector("#Signup-form");
 signupForm.addEventListener("submit", (e)=>  {
   e.preventDefault();
@@ -36,9 +44,7 @@ signupForm.addEventListener("submit", (e)=>  {
 const logout = document.querySelector("#logout");
 logout.addEventListener("click", (e) => {
   e.preventDefault();
-  auth.signOut().then(() => {
-    console.log("user signed out");
-  });
+  auth.signOut();
 });
 
 
@@ -51,7 +57,6 @@ loginForm.addEventListener("submit", (e) => {
   const password = loginForm["password2"].value;
   
   auth.signInWithEmailAndPassword(email, password).then(cred => {
-    console.log(cred.user)
     const modal = document.querySelector("#LoginmyForm");
     M.Modal.getInstance(modal).close();
     loginForm.reset();
