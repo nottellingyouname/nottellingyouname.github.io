@@ -22,6 +22,43 @@
 						<ul class="actions">
 							<li><a href="#story" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
 						</ul>
+						<button class="open-button" id="button1" onclick="openForm()">Sign Up</button>
+							<div class="form-popup" id="myForm">
+								<form class="form-container" id="Signup-form">
+									<h2 style="font-family: Arial, Helvetica, sans-serif; text-align: center;">Sign Up</h2>
+
+									<label for="email" style="text-align: center;"><b>Email</b></label>
+									<input type="text" placeholder="Enter Email" id="email" name="email" required>
+
+									<label for="password" style="text-align: center;"><b>Password</b></label>
+									<input type="password" placeholder="Enter Password" id="password" name="password" required>
+
+									<button type="submit" class="btn">Sign Up</button>
+									<button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+								</form>
+							</div>
+
+	<!------------------------------------------------------Logout--------------------------------------------------------->
+	
+							<button class="logoutbutton" id="logout">Logout</button>
+
+	<!------------------------------------------------------Login--------------------------------------------------------->
+
+							<button class="open-loginbutton" onclick="openForm2()">Login</button>
+							<div class="Loginform-popup" id="LoginmyForm">
+								<form class="Loginform-container" id="Login-form">
+									<h2 style="font-family: Arial, Helvetica, sans-serif; text-align: center;">Login</h2>
+
+									<label for="email" style="text-align: center;"><b>Email</b></label>
+									<input type="text" placeholder="Enter Email" id="email2" name="email" required>
+
+									<label for="password" style="text-align: center;"><b>Password</b></label>
+									<input type="password" placeholder="Enter Password" id="password2" name="password" required>
+
+									<button type="submit" class="btn">Login</button>
+									<button type="button" class="btn cancel" onclick="closeForm2()">Close</button>
+								</form>
+							</div> 
 					</div>
 
 				<!-- Header -->
@@ -70,43 +107,7 @@
 							</article>
 					
             <!------------------------------------------------Sign Up----------------------------------------->
-							<button class="open-button" id="button1" onclick="openForm()">Sign Up</button>
-							<div class="form-popup" id="myForm">
-								<form class="form-container" id="Signup-form">
-									<h2 style="font-family: Arial, Helvetica, sans-serif; text-align: center;">Sign Up</h2>
-
-									<label for="email" style="text-align: center;"><b>Email</b></label>
-									<input type="text" placeholder="Enter Email" id="email" name="email" required>
-
-									<label for="password" style="text-align: center;"><b>Password</b></label>
-									<input type="password" placeholder="Enter Password" id="password" name="password" required>
-
-									<button type="submit" class="btn">Sign Up</button>
-									<button type="button" class="btn cancel" onclick="closeForm()">Close</button>
-								</form>
-							</div>
-
-	<!------------------------------------------------------Logout--------------------------------------------------------->
-	
-							<button class="logoutbutton" id="logout">Logout</button>
-
-	<!------------------------------------------------------Login--------------------------------------------------------->
-
-							<button class="open-loginbutton" onclick="openForm2()">Login</button>
-							<div class="Loginform-popup" id="LoginmyForm">
-								<form class="Loginform-container" id="Login-form">
-									<h2 style="font-family: Arial, Helvetica, sans-serif; text-align: center;">Login</h2>
-
-									<label for="email" style="text-align: center;"><b>Email</b></label>
-									<input type="text" placeholder="Enter Email" id="email2" name="email" required>
-
-									<label for="password" style="text-align: center;"><b>Password</b></label>
-									<input type="password" placeholder="Enter Password" id="password2" name="password" required>
-
-									<button type="submit" class="btn">Login</button>
-									<button type="button" class="btn cancel" onclick="closeForm2()">Close</button>
-								</form>
-							</div> 
+							
 							<div class="pagination">
 								<!--<a href="#" class="previous">Prev</a>-->
 								<a class="page active">1</a>
