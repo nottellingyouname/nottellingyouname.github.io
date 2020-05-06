@@ -286,7 +286,7 @@ function openForm2() {
 
 // setup Posts
 
-const guidelist = document.querySelector(".Posts");
+const Posts = document.querySelector(".Posts");
 
 const setupPosts = (data) => {
 	let html = "";
