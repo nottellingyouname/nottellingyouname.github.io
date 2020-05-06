@@ -16,6 +16,12 @@ const auth = firebase.auth();
 const db = firebase.firestore();
 const analytics = firebase.analytics();
 
+//get data
+
+db.collection("Posts").get().then(snapshot => {
+  console.log(snapshot.docs)
+})
+
 auth.onAuthStateChanged(user => {
   if (user) {
     console.log("user logged in: ", user);
