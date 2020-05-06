@@ -292,6 +292,14 @@ const setupPosts = (data) => {
 	let html = "";
 	data.forEach(docs =>  {
 		const Posts = doc.data();
-		console.log(Posts)
-	})
+		const li = "
+			<li>
+				<div class="collaspsible-header grey lighten-4">${Posts.Title}</div>
+				<div class="collaspsible-body white">${Posts.Description}</div>
+			</li>
+		";
+		html += li
+	});
+
+	Posts.innerHTML = html;
 }
