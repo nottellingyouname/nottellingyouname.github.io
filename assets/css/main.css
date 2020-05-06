@@ -4824,7 +4824,7 @@ input, select, textarea {
 }
   
   /* Add some hover effects to buttons */
-  .Loginform-container .btn:hover, .open-loginbutton:hover {
+  .Loginform-container .btn:hover, .open-loginbutton:hover, .logoutbutton:hover {
 	opacity: 1;
 }
 
@@ -4842,8 +4842,4 @@ input, select, textarea {
 	text-align: center;
 	box-shadow: inset 0 0 0 2px #212931;
 	color: #212931 !important;
-}
-
-.Logoutbutton:hover {
-	opacity: 1;
 }
