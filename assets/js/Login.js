@@ -19,8 +19,8 @@ const analytics = firebase.analytics();
 //get data
 
 db.collection("Posts").get().then(snapshot => {
-  console.log(snapshot.docs)
-})
+  setupPosts(snapshot.docs);
+});  
 
 auth.onAuthStateChanged(user => {
   if (user) {
@@ -30,6 +30,8 @@ auth.onAuthStateChanged(user => {
   }
 });
 
+
+//Signup
 const signupForm = document.querySelector("#Signup-form");
 signupForm.addEventListener("submit", (e)=>  {
   e.preventDefault();
@@ -39,7 +41,7 @@ signupForm.addEventListener("submit", (e)=>  {
 
   auth.createUserWithEmailAndPassword(email, password).then(cred => {
     const modal = document.querySelector("#myForm");
-    Materialize.Modal.getInstance(modal).close();
+    M.Modal.getInstance(modal).close();
     signupForm.reset();
   });
 

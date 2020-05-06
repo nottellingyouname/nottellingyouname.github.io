@@ -284,3 +284,14 @@ function openForm2() {
 }
 
 
+// setup Posts
+
+const guidelist = document.querySelector(".Posts");
+
+const setupPosts = (data) => {
+	let html = "";
+	data.forEach(docs =>  {
+		const Posts = doc.data();
+		console.log(Posts)
+	})
+}
