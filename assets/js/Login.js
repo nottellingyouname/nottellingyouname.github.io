@@ -68,5 +68,5 @@ loginForm.addEventListener("submit", (e) => {
     const modal = document.querySelector("#LoginmyForm");
     M.Modal.getInstance(modal).close();
     loginForm.reset();
-  })
-})
+  });
+});
