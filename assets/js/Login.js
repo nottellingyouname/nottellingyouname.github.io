@@ -43,6 +43,7 @@ signupForm.addEventListener("submit", (e)=>  {
     const modal = document.querySelector("#myForm");
     M.modal.getInstance(modal).close();
     signupForm.reset();
+    console.log(modal)
   });
 
 });
