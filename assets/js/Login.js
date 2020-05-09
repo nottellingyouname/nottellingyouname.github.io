@@ -42,6 +42,7 @@ signupForm.addEventListener("submit", (e)=>  {
   auth.createUserWithEmailAndPassword(email, password).then(cred => {
     const modal = document.querySelector("#myForm");
     M.modal.getInstance(modal).close();
+    console.log(M.modal)
     signupForm.reset();
   });
 
@@ -58,7 +59,7 @@ logout.addEventListener("click", (e) => {
 
 //Login
 const loginForm = document.querySelector("#login");
-loginForm.addEventListener("submit", (e) => {
+loginForm.addEventListener("submit", (e)=> {
   e.preventDefault();
   //get user info
   const email = loginForm["email2"].value;
