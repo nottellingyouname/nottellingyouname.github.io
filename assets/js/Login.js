@@ -37,7 +37,7 @@ signupForm.addEventListener("submit", (e)=>  {
 
   auth.createUserWithEmailAndPassword(email, password).then(cred => {
     const modal = document.querySelector("#myForm");
-    myForm.close()
+    myForm.style.display = "hidden"
     signupForm.reset();
   });
 
