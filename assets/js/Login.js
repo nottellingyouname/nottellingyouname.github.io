@@ -62,7 +62,7 @@ loginForm.addEventListener("submit", (e)=> {
   
   auth.signInWithEmailAndPassword(email, password).then(cred => {
     const modal = document.querySelector("#LoginmyForm");
-    closeForm()
+    closeForm2()
     loginForm.reset();
   });
 });
