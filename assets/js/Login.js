@@ -14,6 +14,7 @@ firebase.initializeApp(firebaseConfig);
 //Sign Up
 const auth = firebase.auth();
 const db = firebase.firestore();
+db.settings({ timestampsInsnapshots: true });
 const analytics = firebase.analytics();
 
 //get data
@@ -66,3 +67,8 @@ loginForm.addEventListener("submit", (e)=> {
     loginForm.reset();
   });
 });
+
+
+db.collection("Posts").get().then((snapshot) => {
+  console.log(snapshots.docs);
+})
