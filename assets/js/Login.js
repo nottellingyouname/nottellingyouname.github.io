@@ -14,10 +14,12 @@ firebase.initializeApp(firebaseConfig);
 //Sign Up
 const auth = firebase.auth();
 const db = firebase.firestore();
-db.settings({ timestampsInsnapshots: true });
 const analytics = firebase.analytics();
 
 //get data
+db.Collection("Posts").get().then(snapshot => {
+  console.log(snapshot.docs)
+})
 
 auth.onAuthStateChanged(user => {
   if (user) {
@@ -67,8 +69,3 @@ loginForm.addEventListener("submit", (e)=> {
     loginForm.reset();
   });
 });
-
-
-db.collection("Posts").get().then((snapshot) => {
-  console.log(snapshots.docs);
-})
