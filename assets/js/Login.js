@@ -18,8 +18,8 @@ const analytics = firebase.analytics();
 
 //get data
 db.collection("Posts").get().then(snapshot => {
-  console.log(snapshot.docs)
-})
+  SetupPosts(snapshot.docs);
+});
 
 auth.onAuthStateChanged(user => {
   if (user) {

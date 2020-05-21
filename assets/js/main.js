@@ -285,4 +285,15 @@ function openForm2() {
 
 
 
+const Postlist = document.querySelector(".articleposts")
+
 // setup guides
+
+const SetupPosts = (data) => {
+	
+	let html = "";
+	data.forEach(doc => {
+		const Post = doc.data();
+		console.log(Post)
+	})
+}
