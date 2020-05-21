@@ -284,16 +284,27 @@ function openForm2() {
 }
 
 
+// setup Posts
 
 const Postlist = document.querySelector(".articleposts")
 
-// setup guides
-
 const SetupPosts = (data) => {
-	
+
 	let html = "";
 	data.forEach(doc => {
 		const Post = doc.data();
-		console.log(Post)
-	})
+		const li = `
+			<li>
+				<article class="header-post">${Post.Title}</article>
+				<article class="date-post">${Post.Date}</article>
+				<article class="author-post">${Post.Author}</article>
+				<article class="description-post">${Post.Description}</article>
+			</li>
+		`;
+
+		html += li
+	});
+
+	Postlist.innerHTML = html;
+
 }
