@@ -284,3 +284,8 @@ function openForm2() {
 }
 
 
+const Posts = document.querySelector(".")
+
+// setup guides
+
+const 

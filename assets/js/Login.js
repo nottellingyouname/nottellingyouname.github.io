@@ -17,7 +17,7 @@ const db = firebase.firestore();
 const analytics = firebase.analytics();
 
 //get data
-db.Collection("Posts").get().then(snapshot => {
+db.collection("Posts").get().then(snapshot => {
   console.log(snapshot.docs)
 })
 
