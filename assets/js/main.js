@@ -294,12 +294,12 @@ const SetupPosts = (data) => {
 	data.forEach(doc => {
 		const Post = doc.data();
 		const li = `
-			<li>
+			<section class="posts">
 				<article class="header-post">${Post.Title}</article>
 				<article class="date-post">${Post.Date}</article>
 				<article class="author-post">${Post.Author}</article>
 				<article class="description-post">${Post.Description}</article>
-			</li>
+			</section>
 		`;
 
 		html += li
