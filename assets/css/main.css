@@ -4846,3 +4846,58 @@ input, select, textarea {
 }
 
 /*----Posts------------------*/
+
+$white: #FEFEFE;
+$dark: #484855;
+$greyLight: #D1CFD2;
+$greyDark: #9B999E;
+$grey: #B9B5BE;
+$red: #ef5350;
+
+body {
+  height: 100vh;
+  background: radial-gradient(circle, #D6A664 , #F9CD8F);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: roboto;
+}
+.post {
+  display: flex;
+  width: 1000px;
+}
+.post-left {
+  width: 40%;
+  background-color: $dark;
+  color: white;
+  padding: 3em;
+  position: relative;
+}
+.post-left_title {
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.post-left_title_sub {
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-top: 0.25em;
+}
+.post-left_border {
+  border: 2px solid $red;
+  width: 15%;
+  margin-top: 1em;
+}
+.post-left_author {
+  position: absolute;
+  bottom: 2em;
+  display: flex;
+  align-items: center;
+  img {
+    width: 2.5em;
+    margin-right:1em;
+    border: 1px solid $white;
+    border-radius: 50%;
+  }
+}
