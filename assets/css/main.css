@@ -4856,12 +4856,11 @@ $red: #ef5350;
 
 body {
   background: radial-gradient(circle, #D6A664 , #F9CD8F);
+  display: flex;
+  align-items: center;
   font-family: roboto;
 }
-.post {
-  display: flex;
-  width: 1000px;
-}
+
 .post-left {
   width: 40%;
   background-color: $dark;
