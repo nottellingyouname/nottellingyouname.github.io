@@ -4854,11 +4854,10 @@ $greyDark: #9B999E;
 $grey: #B9B5BE;
 $red: #ef5350;
 
-body {
+.post {
   background: radial-gradient(circle, #D6A664 , #F9CD8F);
   display: flex;
   align-items: center;
-  font-family: roboto;
 }
 
 .post-left {
