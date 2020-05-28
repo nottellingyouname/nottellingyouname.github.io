@@ -4858,6 +4858,8 @@ $red: #ef5350;
   background: radial-gradient(circle, #D6A664 , #F9CD8F);
   display: flex;
   align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 
 .post-left {
