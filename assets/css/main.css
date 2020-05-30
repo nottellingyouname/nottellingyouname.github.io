@@ -4856,11 +4856,14 @@ $red: #ef5350;
 
 .post {
 	height: 100vh;
-    width: 1000px;
     background: radial-gradient(circle, #D6A664 , #F9CD8F);
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.post {
+	width: 1000px;
 }
 
 .post-left {
