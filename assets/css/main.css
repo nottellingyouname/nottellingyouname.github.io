@@ -4855,12 +4855,12 @@ $grey: #B9B5BE;
 $red: #ef5350;
 
 .post {
-  background: radial-gradient(circle, #D6A664 , #F9CD8F);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  width: 1000px;
+	height: 100vh;
+    width: 1000px;
+    background: radial-gradient(circle, #D6A664 , #F9CD8F);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .post-left {
