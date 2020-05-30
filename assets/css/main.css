@@ -4854,15 +4854,16 @@ $greyDark: #9B999E;
 $grey: #B9B5BE;
 $red: #ef5350;
 
-.post {
+.maam {
 	height: 100vh;
-    background: radial-gradient(circle, #D6A664 , #F9CD8F);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+	background: radial-gradient(circle, #D6A664 , #F9CD8F);
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .post {
+	display: flex;
 	width: 1000px;
 }
 
