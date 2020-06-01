@@ -4855,10 +4855,8 @@ $grey: #B9B5BE;
 $red: #ef5350;
 
 
-
 .post {
 	display: flex;
-	width: 1000px;
 	height: 100vh;
 }
 
