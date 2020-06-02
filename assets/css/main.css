@@ -4858,13 +4858,13 @@ $red: #ef5350;
 .post {
 	width: 1000px;
 	height: 100vh;
+	display: flex;
 	justify-content: center;
 	align-items: center;
 	font-family: roboto;
 }
 
 .maam {
-	display: flex;
 	background: radial-gradient(circle, #D6A664 , #F9CD8F);
 }
 
