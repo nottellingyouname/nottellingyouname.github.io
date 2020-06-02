@@ -4865,6 +4865,7 @@ $red: #ef5350;
 }
 
 .maam {
+	display: flex;
 	background: radial-gradient(circle, #D6A664 , #F9CD8F);
 }
 
