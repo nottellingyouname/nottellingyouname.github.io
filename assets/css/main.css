@@ -4861,12 +4861,12 @@ $red: #ef5350;
 }
 
 .post {
-    display: flex;
+	display: flex;
+	justify-content: center; 
+    align-items: center;
 }
 
 .maam {
-    justify-content: center; 
-    align-items: center;
 	background: radial-gradient(circle, #D6A664 , #F9CD8F);
 }
 
