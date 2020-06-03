@@ -4859,6 +4859,7 @@ $red: #ef5350;
 	width: 1000px;
 	height: 100vh;
 	align-items: center;
+	justify-content: center; 
 }
 
 .post {
@@ -4866,7 +4867,6 @@ $red: #ef5350;
 }
 
 .maam {
-	justify-content: center; 
 	background: radial-gradient(circle, #D6A664 , #F9CD8F);
 }
 
