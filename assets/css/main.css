@@ -4858,11 +4858,11 @@ $red: #ef5350;
 .post {
 	width: 1000px;
 	height: 100vh;
+	display: flex;
 }
 
 .post {
 	justify-content: center; 
-	display: flex;
 }
 
 .maam {
