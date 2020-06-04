@@ -4858,15 +4858,15 @@ $red: #ef5350;
 .post {
 	width: 1000px;
 	height: 100vh;
-	align-items: center;
-	justify-content: center; 
 }
 
 .post {
+	justify-content: center; 
 	display: flex;
 }
 
 .maam {
+	align-items: center;
 	background: radial-gradient(circle, #D6A664 , #F9CD8F);
 }
 
