@@ -4863,10 +4863,10 @@ $red: #ef5350;
 .post {
 	display: flex;
 	align-items: center;	
+	justify-content: center; 
 }
 
-.maam {
-	justify-content: center; 
+.maam {	
 	background: radial-gradient(circle, #D6A664 , #F9CD8F);
 }
 
