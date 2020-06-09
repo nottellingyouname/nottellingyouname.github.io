@@ -4862,8 +4862,8 @@ $red: #ef5350;
 }
 
 .post {
-	display: flex;
-	align-items: center;	
+	align-items: center;
+	display: flex;		
 }
 
 .maam {	
