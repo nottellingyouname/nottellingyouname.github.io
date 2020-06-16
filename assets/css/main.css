@@ -4945,11 +4945,11 @@ $red: #ef5350;
 
 /*PEN STYLES*/
 
-* {
+.blog-card {
 	box-sizing: border-box;
   }
   
-  body {
+  .blog-card {
 	background: #f1f1f1;
 	margin: 2rem;
   }
