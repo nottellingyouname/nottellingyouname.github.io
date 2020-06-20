@@ -4852,7 +4852,7 @@ input, select, textarea {
 
 /*PEN STYLES*/
 
-* {
+.blog-card {
 	box-sizing: border-box;
 }
   
