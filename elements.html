@@ -72,57 +72,49 @@
 
 			<!----------------------------------------------------maam------------------------------- ---->
 							<!---bruh-->
-							<div class="blog-card">
-								<div class="meta">
-								  <div class="photo" style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-1.jpg)"></div>
-								  <ul class="details">
-									<li class="author"><a href="#">John Doe</a></li>
-									<li class="date">Aug. 24, 2015</li>
-									<li class="tags">
-									  <ul>
-										<li><a href="#">Learn</a></li>
-										<li><a href="#">Code</a></li>
-										<li><a href="#">HTML</a></li>
-										<li><a href="#">CSS</a></li>
-									  </ul>
+							
+								<ul class="cards">
+									<li class="cards__item">
+									<div class="card">
+										<div class="card__image card__image--fence"></div>
+										<div class="card__content">
+										<div class="card__title">Flex</div>
+										<p class="card__text">This is the shorthand for flex-grow, flex-shrink and flex-basis combined. The second and third parameters (flex-shrink and flex-basis) are optional. Default is 0 1 auto. </p>
+										<button class="btn btn--block card__btn">Button</button>
+										</div>
+									</div>
 									</li>
-								  </ul>
-								</div>
-								<div class="description">
-								  <h1>Learning to Code</h1>
-								  <h2>Opening a door to the future</h2>
-								  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.</p>
-								  <p class="read-more">
-									<a href="#">Read More</a>
-								  </p>
-								</div>
-							  </div>
-							  <div class="blog-card alt">
-								<div class="meta">
-								  <div class="photo" style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-2.jpg)"></div>
-								  <ul class="details">
-									<li class="author"><a href="#">Jane Doe</a></li>
-									<li class="date">July. 15, 2015</li>
-									<li class="tags">
-									  <ul>
-										<li><a href="#">Learn</a></li>
-										<li><a href="#">Code</a></li>
-										<li><a href="#">JavaScript</a></li>
-									  </ul>
+									<li class="cards__item">
+									<div class="card">
+										<div class="card__image card__image--river"></div>
+										<div class="card__content">
+										<div class="card__title">Flex Grow</div>
+										<p class="card__text">This defines the ability for a flex item to grow if necessary. It accepts a unitless value that serves as a proportion. It dictates what amount of the available space inside the flex container the item should take up.</p>
+										<button class="btn btn--block card__btn">Button</button>
+										</div>
+									</div>
 									</li>
-								  </ul>
-								</div>
-								<div class="description">
-								  <h1>Mastering the Language</h1>
-								  <h2>Java is not the same as JavaScript</h2>
-								  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.</p>
-								  <p class="read-more">
-									<a href="#">Read More</a>
-								  </p>
-								</div>
-							</div>
-
-					
+									<li class="cards__item">
+									<div class="card">
+										<div class="card__image card__image--record"></div>
+										<div class="card__content">
+										<div class="card__title">Flex Shrink</div>
+										<p class="card__text">This defines the ability for a flex item to shrink if necessary. Negative numbers are invalid.</p>
+										<button class="btn btn--block card__btn">Button</button>
+										</div>
+									</div>
+									</li>
+									<li class="cards__item">
+									<div class="card">
+										<div class="card__image card__image--flowers"></div>
+										<div class="card__content">
+										<div class="card__title">Flex Basis</div>
+										<p class="card__text">This defines the default size of an element before the remaining space is distributed. It can be a length (e.g. 20%, 5rem, etc.) or a keyword. The auto keyword means "look at my width or height property."</p>
+										<button class="btn btn--block card__btn">Button</button>
+										</div>
+									</div>
+									</li>
+								</ul>			
 					
             <!------------------------------------------------Sign Up----------------------------------------->
 							<button class="open-button" id="button1" onclick="openForm()">Sign Up</button>
