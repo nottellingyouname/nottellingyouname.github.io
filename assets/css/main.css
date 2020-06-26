@@ -4852,7 +4852,6 @@ input, select, textarea {
 .card {
   font-family: Roboto, sans-serif;
   margin: 0;
-  height: 100vh;
   display: grid;
   align-items: center;
   justify-items: center;
