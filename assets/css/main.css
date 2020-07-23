@@ -4949,5 +4949,10 @@ path {
   background-size: cover;
 }
 
-
+.portada {
+	position: absolute;
+	bottom: 2em;
+	display: flex;
+	align-items: center;
+}
 
