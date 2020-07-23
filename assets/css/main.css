@@ -4947,12 +4947,9 @@ path {
   background-image: linear-gradient(-245deg, black, #FC635B);
   background-position: bottom center;
   background-size: cover;
-}
-
-.portada {
-	position: absolute;
-	bottom: 2em;
-	display: flex;
-	align-items: center;
+  position: absolute;
+  bottom: 2em;
+  display: flex;
+  align-items: center;
 }
 
