@@ -4948,7 +4948,6 @@ path {
   background-position: bottom center;
   background-size: cover;
   position: absolute;
-  bottom: 2em;
   display: flex;
   align-items: center;
 }
