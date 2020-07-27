@@ -4947,8 +4947,7 @@ path {
   background-image: linear-gradient(-245deg, black, #FC635B);
   background-position: bottom center;
   background-size: cover;
-  bottom: 2em;
-  display: flex;
-  align-items: center;
+  display: grid;
+  align-items: end;
 }
 
