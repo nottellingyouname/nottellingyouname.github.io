@@ -4948,6 +4948,6 @@ path {
   background-position: bottom center;
   background-size: cover;
   display: grid;
-  align-items: end;
+  align-content: end;
 }
 
