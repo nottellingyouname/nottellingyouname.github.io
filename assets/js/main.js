@@ -294,11 +294,9 @@ const SetupPosts = (data) => {
 		const Post = doc.data();
 		const div = `
 			<section class="posts">
-				<article>
 					<header>
 						<p class="description-post">${Post.Description}</p>
 					</header>
-				</article>
 			</section>
 		`;
 
