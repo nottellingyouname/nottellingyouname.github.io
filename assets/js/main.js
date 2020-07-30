@@ -310,4 +310,27 @@ const SetupPosts = (data) => {
 
 }
 
+const Postlist = document.querySelector(".headerposts")
+
+const SetupPosts = (data) => {
+
+	let html = "";
+	data.forEach(doc => {
+		const Post = doc.data();
+		const li = `
+			<section class="posts">
+				<article>
+					<header>
+					    <h2 class="header-post">${Post.Title}</h2>
+					</header>
+				</article>
+			</section>
+		`;
+
+		html += li
+	});
+
+	Postlist.innerHTML = html;
+
+}
 
