@@ -285,7 +285,6 @@ function openForm2() {
 
 
 // setup Posts
-
 const Postlist = document.querySelector(".articleposts")
 
 const SetupPosts = (data) => {
@@ -293,7 +292,7 @@ const SetupPosts = (data) => {
 	let html = "";
 	data.forEach(doc => {
 		const Post = doc.data();
-		const li = `
+		const div = `
 			<section class="posts">
 				<article>
 					<header>
@@ -303,7 +302,7 @@ const SetupPosts = (data) => {
 			</section>
 		`;
 
-		html += li
+		html += div
 	});
 
 	Postlist.innerHTML = html;
