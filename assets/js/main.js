@@ -295,6 +295,8 @@ const SetupPosts = (data) => {
 		const div = `
 			<section class="posts">
 					<header>
+						<p class="date-post">${Post.Date}</p> 						
+					    <p class="author-post">${Post.Author}</p>
 						<p class="description-post">${Post.Description}</p>
 					</header>
 			</section>
