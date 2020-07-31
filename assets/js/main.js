@@ -285,7 +285,7 @@ function openForm2() {
 
 
 // setup Posts
-const Postlist = document.querySelector(".articleposts")
+const Postlist = document.querySelector(".articleposts, .articlsts")
 
 const SetupPosts = (data) => {
 
