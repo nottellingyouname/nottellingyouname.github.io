@@ -285,7 +285,7 @@ function openForm2() {
 
 
 // setup Posts
-const Postlist = document.querySelector(".articleposts, .articlsts")
+const Postlist = document.querySelector(".articleposts")
 
 const SetupPosts = (data) => {
 
@@ -296,9 +296,11 @@ const SetupPosts = (data) => {
 			<section class="posts">
 					<header>
 						<p class="date-post">${Post.Date}</p> 						
-					    <p class="author-post">${Post.Author}</p>
 						<p class="description-post">${Post.Description}</p>
 					</header>
+					<article>
+						<p class="author-post">${Post.Author}</p>
+					</article>
 			</section>
 		`;
 
