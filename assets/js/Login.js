@@ -17,14 +17,15 @@ const db = firebase.firestore();
 const analytics = firebase.analytics();
 
 //get data
-db.collection("Posts").get().then(snapshot => {
-  SetupPosts(snapshot.docs);
-});
-
 auth.onAuthStateChanged(user => {
   if (user) {
+    db.collection("Posts").get().then(snapshot => {
+      SetupPosts(snapshot.docs);
+      setupUI(user);
+    });
     console.log("user logged in: ", user);
   } else {
+    setupUI();
     console.log("user logged out");
   }
 });
