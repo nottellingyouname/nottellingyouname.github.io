@@ -2915,7 +2915,7 @@ input, select, textarea {
 			display: block;
 			font-size: 0.8rem;
 			height: 1;
-			margin: 0 0 1rem 0;
+			margin: 1rem;
 			position: relative;
 		}
 
@@ -3786,7 +3786,7 @@ input, select, textarea {
 		}
 
 			#main > .post header.major > .date {
-				margin-top: -2rem;
+				margin-top: 1rem;
 			}
 
 			#main > .post header.major > h1, #main > .post header.major h2 {
