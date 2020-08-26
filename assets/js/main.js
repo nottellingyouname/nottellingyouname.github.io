@@ -307,8 +307,8 @@ const SetupPosts = (data) => {
 	data.forEach(doc => {
 		const Post = doc.data();
 		const div = `
-			<section class="posts">
-					<header>
+			<section>
+					<header class="post">
 						<p class="date-post">${Post.Date}</p> 						
 						<p class="description-post">${Post.Description}</p>
 					</header>
