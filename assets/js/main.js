@@ -304,7 +304,7 @@ const setupUI = (user) => {
 const SetupPosts = (data) => {
 
 	let html = "";
-	data.forEach(doc => {
+	data(doc => {
 		const Post = doc.data();
 		const div = `
 			<section>
