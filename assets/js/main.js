@@ -308,6 +308,22 @@ const SetupPosts = (data) => {
 		const Post = doc.data();
 		const li = `
 			<section>
+					<div class="card">				
+					<div class="card-text">
+						<div class="portada">
+						<div class="title">${Post.Author}</div>
+						<div class="date">${Post.Date}</div>
+					</div>
+						
+					<div class="title-total">   
+						<h2>Morgan Swefy</h2>
+					<div class="desc">${Post.Description}
+					<h1 class="posts"></h1></div>
+					<div class="actions"></div>
+					<button>expand</button>
+					</div>					
+					</div>						
+				    </div>
 					<header class="post">
 						<p class="date-post">${Post.Date}</p> 						
 						<p class="description-post">${Post.Description}</p>
