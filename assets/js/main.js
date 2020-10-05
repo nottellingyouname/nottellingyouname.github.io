@@ -304,9 +304,9 @@ const setupUI = (user) => {
 const SetupPosts = (data) => {
 
 	let html = "";
-	data(doc => {
+	data.forEach(doc => {
 		const Post = doc.data();
-		const div = `
+		const li = `
 			<section>
 					<header class="post">
 						<p class="date-post">${Post.Date}</p> 						
@@ -318,7 +318,7 @@ const SetupPosts = (data) => {
 			</section>
 		`;
 
-		html += div
+		html += li
 	});
 
 	Postlist.innerHTML = html;
