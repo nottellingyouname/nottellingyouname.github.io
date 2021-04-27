@@ -316,7 +316,7 @@ const SetupPosts = (data) => {
 					</div>
 						
 					<div class="title-total">   
-						<h2>Morgan Swefy</h2>
+						<h2>M</h2>
 					<div class="desc">${Post.Description}
 					<h1 class="posts"></h1></div>
 					<div class="actions"></div>
